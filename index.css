@@ -1,0 +1,217 @@
+/* Body styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff7d4;
+}
+
+/* Container for the main part of the page */
+.container {
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the title/header of the page */
+.container-header {
+  height: 20vh;
+  width: 100%;
+  background-color: #9bb8cd;
+  border-top: 1px solid #9bb8cd;
+}
+
+/* Container body */
+.container-body {
+  height: 60%;
+  width: 100%;
+}
+
+/* Window for displaying calculations */
+.window {
+  height: 50vh;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Result output */
+#output {
+  font-size: 2em;
+  color: #9bb8cd;
+  background-color: #fff7d4;
+  margin-left: 1em;
+  width: 40%;
+  font-weight: bold;
+}
+
+/* Symbols below title */
+.tool-symbols-container {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Symbols below title - icons */
+.bi {
+  color: white;
+  height: 2em;
+  width: 2em;
+  position: relative;
+  top: 50%;
+  margin: 4em 2em 1em 0;
+}
+
+/* title */
+.title {
+  text-align: center;
+  position: relative;
+  top: 30%;
+  color: white;
+  font-family: "Anton", sans-serif;
+  font-size: 3em;
+  font-weight: 200;
+  font-style: normal;
+  background-color: #ebd086;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Styling for the calculator container */
+#calculatorOptions {
+  width: 20em;
+  margin: 2em auto;
+  padding: 20px;
+  border: 5px solid #ccc;
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #9bb8cd;
+}
+
+/* Styling for text input */
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+/* Styling for button inputs */
+input[type="button"] {
+  width: 48%;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  background-color: #ebd086;
+}
+
+/* Converter options to choose from */
+#converterOptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+/* Currency Exchange generate button - div */
+#CurrencyExchangeOptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  padding-left: 2em;
+  margin: 0;
+}
+
+/* Generate div */
+#passwordGenerator {
+  position: relative;
+  top: 20%;
+  left: 45%;
+  margin: 0;
+  width: 10%;
+}
+
+/* Generate button styling*/
+#generateBtnPassword {
+  height: 5em;
+  width: 10em;
+}
+
+/* Generated password - ready to use */
+#generatedPassword {
+  font-family: "Anton", sans-serif;
+  font-size: 2.5em;
+  color: #9bb8cd;
+  margin-top: 1em;
+}
+
+/* Option buttons */
+.options button {
+  margin: 0.5em;
+  border-radius: 5%;
+  background-color: #9bb8cd;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em;
+  transition: all 0.3s ease;
+}
+
+/* Option buttons when hover with a mouse */
+.options button:hover {
+  margin: 0.5em;
+  border-radius: 10%;
+  border: 1px solid none;
+  background-color: white;
+  color: #9bb8cd;
+  padding: 0.5em;
+}
+
+/* Choose word (options) */
+.choose-text {
+  color: #9bb8cd;
+  font-family: "Anton", sans-serif;
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+/* Select - buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+/* button styling */
+.btn {
+  height: 5em;
+  width: 7em;
+  margin: 2em 2em;
+  border: 2px solid #9bb8cd;
+  font-family: "Anton", sans-serif;
+  font-size: 1.4em;
+  color: #6e8494;
+  transition: all 0.3s ease;
+}
+
+/* button when mouse hover */
+.btn:hover {
+  background-color: #9bb8cd;
+  color: white;
+  border-color: #ecd187;
+}
+
+/* Footer */
+.footer-text {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 0;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  color: #9bb8cd;
+  font-size: 1.3em;
+}
+
+/* Name in footer */
+.created-by {
+  font-size: 0.7em;
+}
