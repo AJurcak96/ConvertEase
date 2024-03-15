@@ -7,3 +7,5 @@ Unit Conversion: Convert between different units of measurement effortlessly.
 Currency Exchange: Effortlessly convert between different currencies.
 
 Password Generation: Enhance your online security with strong, randomly generated passwords.
+
+ONLY DESKTOP VERSION
